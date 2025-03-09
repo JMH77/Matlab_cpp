@@ -31,7 +31,7 @@ int main() {
         setw(12) << right << powerSpectrum(i) << endl;
     }
 
-    return 0;
+        return 0;
 }
 
 
