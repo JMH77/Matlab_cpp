@@ -1,0 +1,10 @@
+^C:\USERS\LENOVO\DESKTOP\MATLAB_CPP\TIAOSHI01\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -SC:/Users/lenovo/Desktop/Matlab_cpp/tiaoshi01 -BC:/Users/lenovo/Desktop/Matlab_cpp/tiaoshi01/cmake-build-debug --check-stamp-file C:/Users/lenovo/Desktop/Matlab_cpp/tiaoshi01/cmake-build-debug/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

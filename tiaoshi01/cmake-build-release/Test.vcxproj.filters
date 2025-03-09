@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\lenovo\Desktop\Matlab_cpp\tiaoshi01\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\lenovo\Desktop\Matlab_cpp\tiaoshi01\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{29D06B92-17AF-3B99-B5EC-1752120B8EC3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
